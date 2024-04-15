@@ -1,0 +1,25 @@
+{
+  "name": "redis-rank-lyz",
+  "version": "1.0.2",
+  "description": "基于redis的sorted-set实现的排行榜功能",
+  "main": "index.js",
+  "scripts": {
+    "test": "ts-node ./test/test-rank.test.ts",
+    "build": "tsc"
+  },
+  "files": [
+    "dist",
+    "test"
+  ],
+  "types": "./dist/index.d.ts",
+  "author": "luoyizhao",
+  "license": "ISC",
+  "dependencies": {
+    "ioredis": "^5.3.2"
+  },
+  "devDependencies": {
+    "@types/ioredis": "^5.0.0",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "^20.11.28"
+  }
+}
