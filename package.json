@@ -1,6 +1,6 @@
 {
   "name": "redis-rank-lyz",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "基于redis的sorted-set实现的排行榜功能",
   "main": "index.js",
   "scripts": {
@@ -20,6 +20,11 @@
   "bugs": {
     "url": "https://github.com/luoyizhao/redis-rank-lyz/issues"
   },
+  "keywords": [
+    "redis",
+    "rank",
+    "sorted-set"
+  ],
   "license": "ISC",
   "dependencies": {
     "ioredis": "^5.3.2"
